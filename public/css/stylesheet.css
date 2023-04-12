@@ -190,3 +190,49 @@
     font-weight: 500;
     color: #8491a5;
   }
+
+  /* Rules for sizing the icon. */
+.material-icons-round.md-18 { font-size: 18px; }
+.material-icons-round.md-24 { font-size: 24px; }
+.material-icons-round.md-36 { font-size: 36px; }
+.material-icons-round.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons-round.unselected { color: rgb(172, 172, 172); }
+.material-icons-round.selected { color: rgb(4, 168, 23); }
+.material-icons-round.unselected:hover { color: rgb(4, 168, 23); cursor: pointer; }
+
+
+/* Rules for using icons as white on a dark background. */
+.material-icons-round.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons-round.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.status-radio-positive {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+
+.status-radio-positive input{
+  cursor: pointer;
+  margin-right: 5px;
+}
+.status-radio-positive:hover{
+  color: rgb(4, 168, 23); 
+}
+
+.status-radio-negative {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+
+.status-radio-negative input {
+  cursor: pointer;
+  margin-right: 5px;  
+}
+
+.status-radio-negative:hover {
+  color: red;
+}
+
