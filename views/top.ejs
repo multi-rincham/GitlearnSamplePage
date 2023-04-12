@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>日程調整くん</title>
+        <script src="/send_url.js"></script>
+        <link rel = "stylesheet"
+            href = "/css/stylesheet.css" >
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone" rel="stylesheet">
+    </head>
+    <body>
+        <p>日程調整くん</p>
+<!--         
+    <div class = "icon"> 
+      
+     <span class="material-icons-round md-36 unselected">
+            change_history
+        </span>  
+-->
+        <label class="status-radio-positive">
+            <input type="radio" id="attend" name="status" value="attend">
+            出席
+        </label>
+        <label class="status-radio-positive">
+            <input type="radio" id="thinking" name="status" value="thinking">
+            悩み中
+        </label>
+        <label class="status-radio-negative">
+            <input type="radio" id="absent" name="status" value="absent">
+            欠席
+        </label>
+        <input type="button" value="OK" onclick="OnButtonClick();">
+
+        <script>
+            function OnButtonClick() {
+            target = document.getElementById("output");
+            target.innerHTML = "Penguin";
+   }
+        </script>
+<!--         </div>  -->
+        </body>
+</html>
